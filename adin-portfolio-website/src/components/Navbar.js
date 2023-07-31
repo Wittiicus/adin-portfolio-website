@@ -13,6 +13,9 @@ function Navbar() {
             <li>
                 Blog
             </li>
+            <li>
+                Resume
+            </li>
         </ul>
     </div>);
 }

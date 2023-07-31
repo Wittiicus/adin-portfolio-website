@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: hsl(220, 13%, 18%);
   background: fixed;
+  background-image: './assets/new-background.jpg';
 }
 
 .App-logo {
