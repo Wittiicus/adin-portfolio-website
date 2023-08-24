@@ -1,0 +1,51 @@
+.about-title{
+    color: white;
+    font-size: 6rem;
+}
+.right-picture {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: flex-end;
+    content: url('./assets/new-background.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    display: flex;
+    align-items: center; /* Make containers stretch to match height */
+    justify-content: space-between;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 300px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.about-description{
+    text-align: left;
+    font-size: 15px;
+}
+.header-container{
+    width: 35rem;
+    text-align: left;
+}
+.text-background {
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: rgba(5, 6, 7, 0.5);
+    opacity: 30;
+}
