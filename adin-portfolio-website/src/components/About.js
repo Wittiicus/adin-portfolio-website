@@ -24,6 +24,10 @@ function About() {
                     </p>
                 </div>
             </div>
+            <div className="image-container">
+                    <div className="right-picture">
+                    </div>
+                </div>
             </div>
         </section>
     );
